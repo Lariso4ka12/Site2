@@ -1,0 +1,96 @@
+body, html {
+    margin: 0; /* Усуває відступи навколо body і html */
+    padding: 0; /* Усуває внутрішні відступи */
+}
+
+header {
+    font-size: 40px;
+    background-color: blueviolet;
+    padding: 20px 0;
+    margin: 0; /* Усуває відступи навколо header */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; /* Центрує текст всередині header */
+    position: absolute; /* Розташовує header абсолютне відносно його контейнера */
+    top: 0; /* Прив'язує header до верхньої частини контейнера */
+    left: 0; /* Прив'язує header до лівої частини контейнера */
+    
+}
+
+header p {
+    display: inline; /* Розміщує пункти в рядку без додаткового відступу */
+    color: white; /* Робить текст білим для контрасту */
+    margin: 0; /* Усуває відступи навколо абзаців */
+    padding: 0; /* Усуває відступи всередині абзаців */
+    font-size: 40px;
+}
+
+header p + p {
+    margin-left: 5px; /* Встановлює менший відступ між абзацами */
+}
+
+.gold {
+    color: goldenrod;
+}
+
+.black {
+    color: black;
+}
+.block {
+    background-color: #ff9800; /* Оранжевий фон */
+    border: 2px solid #e68900; /* Темніший оранжевий контур */
+    border-radius: 10px; /* Закруглені кути */
+    padding: 15px; /* Внутрішні відступи */
+    text-align: center; /* Центрує текст всередині блоку */
+    margin: 20px; /* Відступи навколо блоку */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Темніша тінь для глибини */
+    max-width: 250px; /* Максимальна ширина блоку */
+    width: 100%; /* Блок може адаптуватися до ширини контейнера */
+    box-sizing: border-box; /* Включає padding і border в ширину блока */
+    margin-top: 160px
+}
+
+.block img {
+    max-width: 100%; /* Ширина зображення не перевищує ширину блоку */
+    height: auto; /* Автоматичне збереження пропорцій зображення */
+    border-radius: 8px; /* Закруглені кути зображення */
+}
+
+.block p {
+    margin-top: 10px; /* Відступ зверху для тексту */
+    font-size: 18px; /* Розмір шрифту */
+    color: white; /* Білий текст для контрасту */
+}
+
+.video-container {
+    width: 100%; /* Ширина контейнера для відео */
+    display: flex;
+    justify-content: center; /* Центрує відео по горизонталі */
+    align-items: center; /* Центрує відео по вертикалі */
+    height: 60%; /* Висота контейнера для відео */
+    margin-top: 20px; /* Відступ зверху */
+}
+
+.video-container video {
+    height: 700px; /* Максимальна висота відео не перевищує висоту контейнера */
+    width: 60зx; /* Ширина відео автоматично */
+    border-radius: 8px; /* Закруглені кути відео */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь для відео */
+}
+
+body{
+   background-color: rgb(189, 178, 178);
+}
+.back {
+    text-align: left;
+    color: black;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20px; /* Додаємо відступ зліва */
+    transition: background-color 0.3s ease; /* Додаємо плавний перехід для зміни кольору */
+}
+
+.back:hover {
+    background-color: red; /* Зміна кольору на червоний при наведенні */
+}
